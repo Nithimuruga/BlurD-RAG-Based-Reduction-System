@@ -1,0 +1,53 @@
+fastapi
+motor
+uvicorn
+python-jose[cryptography]
+python-multipart
+pydantic
+python-dotenv
+aiofiles
+
+# ML and NLP dependencies
+spacy>=3.4.0
+transformers>=4.21.0
+torch>=1.12.0
+numpy>=1.21.0
+scikit-learn>=1.1.0
+
+# Text processing
+PyPDF2>=3.0.0
+python-docx>=0.8.11
+Pillow>=9.2.0
+pytesseract>=0.3.10
+pymupdf>=1.21.1
+pdfplumber>=0.7.4
+passporteye>=2.0.0
+opencv-python>=4.6.0
+pdf2image>=1.16.0
+pandas>=1.5.0
+openpyxl>=3.0.10
+aiohttp>=3.8.3
+
+# Document generation and output formatting
+reportlab>=3.6.12      # PDF generation
+python-docx>=0.8.11    # DOCX document creation
+pandas>=1.5.0          # Data manipulation and CSV creation
+xlsxwriter>=3.0.9      # Excel file generation
+jinja2>=3.1.2          # Template rendering
+
+# Database drivers
+motor>=3.1.1
+psycopg2-binary>=2.9.5  # PostgreSQL
+elasticsearch>=8.6.0    # ElasticSearch
+redis>=4.5.1           # Redis
+
+# Cloud storage
+boto3>=1.26.0          # AWS S3
+google-cloud-storage>=2.7.0  # GCP Storage
+
+# Additional utilities
+regex>=2022.7.9
+click>=8.0.0
+langdetect>=1.0.9      # Language detection
+uuid>=1.30             # UUID generation
+cryptography>=38.0.0   # For encryption/decryption
